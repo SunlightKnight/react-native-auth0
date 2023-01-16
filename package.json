@@ -10,7 +10,7 @@
     "jsdocs": "jsdoc --configure .jsdoc.json --verbose",
     "build": "expo-module build",
     "clean": "expo-module clean",
-    "prepare": "npm run build",
+    "prepare": "expo-module prepare",
     "prepublishOnly": "expo-module prepublishOnly",
     "expo-module": "expo-module"
   },
